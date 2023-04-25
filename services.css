@@ -1,0 +1,116 @@
+
+
+ *{
+    padding: 0;
+    
+}
+
+body{
+  font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    padding-top: -40px;
+    background-image: url('WEB/web\ \(5\).jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  
+}
+header{
+    
+    background-color: black;
+    color: white;
+    margin-top: -20px;
+}
+
+main{
+  background-color: rgba(0, 0, 0, 0.709);
+  width: 90%;
+}
+header h1{
+   color: white;
+   text-align: center;
+   font-size: 35pt;
+   font-weight: 270;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 4px;
+  letter-spacing: 17px;
+ 
+  
+} 
+
+header h5{
+  color: rgb(168, 163, 163);
+  text-align: center;
+  margin-top: -22px;
+  font-size: 13t;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 22;
+}
+
+header li{
+  float:left;
+  display:inline;
+  margin-left: 120px;
+  font-weight: 1000px;
+  text-decoration: none;
+}
+
+header .highlight, header .current a{
+  color: rgb(239, 129, 2);
+  font-weight:bold;
+}
+header nav{
+  float:left;
+  margin-top: -5px;
+  margin-left: 17%;
+  font-weight: 800;
+  font-family: arial,black;
+  text-decoration: none;
+}
+
+header a:hover{
+  color: rgb(239, 129, 2);
+  font-weight:bold;
+ 
+}
+
+header a{
+  text-decoration: none;
+  padding: 0 0px -10px 20px;
+  color: gray;
+  font-size: 15pt;
+}
+  
+  /* .head2 .h1 {
+
+    color: #fff;
+    padding: 20px;
+  }
+   */
+  
+  main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 90px;
+    display: flex;
+    
+  }
+
+  
+
+ul#services li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+
+footer{
+  background-color: black;
+  height: 40px;
+  text-align: center;
+  margin-top: 100px;
+}
+  

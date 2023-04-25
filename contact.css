@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    padding-top: -40px;
+}
+header{
+    background-color: black;
+    color: white;
+    margin-top: -60px;
+  
+}
+
+header h1{
+   
+   color: white;
+   text-align: center;
+   font-size: 35pt;
+   font-weight: 270;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 4px;
+   letter-spacing: 17px;
+   margin-right: 150px;
+}
+
+header h5{
+
+    color: rgb(168, 163, 163);
+    text-align: center;
+    margin-top: -22px;
+    font-size: 11pt;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+header li{
+    float:left;
+    display: inline;
+    margin-left: 120px;
+    font-weight: 1000px;
+    text-decoration: none;
+  
+ 
+  }
+header nav{
+    float:left;
+    margin-top: -5px;
+    margin-left: 17%;
+    font-weight: 800;
+    font-family: ariel,black;
+    text-decoration: none;
+}
+header .highlight, header .current a{
+  color: rgb(239, 129, 2);
+  font-weight:bold;
+}
+
+header a:hover{
+    color: rgb(239, 129, 2);
+    font-weight:bold;
+    text-decoration: none;
+   
+  }
+
+  header a{
+    text-decoration: none;
+    padding: 0 0px -10px 20px;
+    color: rgb(156, 156, 156);
+    font-size: 15pt;
+  }
+
+  body h1{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 150px;
+    margin-top: 100px;
+  }
+  body p{
+    line-height: 30px;
+    list-style: lower-alpha;
+    font-size: 15pt;
+  }
+
+  .register{
+    /* background-color: blue; */
+    margin-top: 130px;
+    height: 600px;
+    width: 40%;
+    margin-left: 100px;
+  }
+
+.register input{
+    background: transparent;
+    height: 40px;
+    width: 457px;
+    border-radius: 4px;
+    border: 1px solid white;
+    color: white;
+   
+  }
+
+.register .first{
+    width: 220px;
+}
+
+.register .last{
+    width: 220px;
+    margin-left: 10px;
+}
+
+.register .last-name{
+    
+    margin-left: 167px;
+    
+}
+
+.register .message{
+    height: 100px;
+}
+
+.register input:hover{
+    border: 2px solid white;
+}
+
+.btn{
+    background: rgb(121, 118, 118);
+    width: 150px;
+    height: 50px;
+    color: white;
+    margin-top: 5px;
+}
+label{
+  font-size: 17px;
+  font-weight: 20px;
+  font-family: Verdana;
+  font-weight: 270pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.in-toutch {
+  width: 30%;
+  margin-left: 60%;
+  margin-top: -600px;
+
+}
+
+ h4{
+  font-size: 20px;
+ 
+}
+.in-toutch h3{
+  font-weight: 270;
+ font-family: Arial, Helvetica, sans-serif;
+ letter-spacing: 3px;
+ margin-top: -10px;
+
+}
+
+.in-toutch h5{
+  font-weight: 20;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  margin-top: -7px;
+  font-size: 15px;
+}
+
+.in-toutch h6{
+  font-weight: 20;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  margin-top: -8px;
+  font-size: 15px;
+}
+
+body h2{
+
+  margin-top: 10px;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 200px;
+  margin-top: 550px;
+}
+
+
+
+.brands{
+  margin-left: 30%;
+  height: 100px;
+  width: 700px;
+  margin-top: 80px;
+ margin-left: 130PX;
+  
+}
+
+.brands i{
+  padding: 10px;
+  width: 63px;
+  height: 65px;
+  font-size: 3rem;
+  color: white;
+}
+
+.brands i:hover{
+  background-color: rgb(208, 43, 98);
+  border-radius: 20%;
+  transition: 1.2s ease-in-out;
+}
+
+#face{
+  padding: 10px;
+  width: 63px;
+  height: 65px;
+  font-size: 3rem;
+
+}
+
+#face:hover{
+  background-color:  rgb(42, 72, 169);
+  color: white;
+  width: 63px;
+  height: 65px;
+  border-radius: 20%;
+  transition: 1.2s ease-in-out;
+}
+
+
+
+#in{
+  padding: 10px;
+  width: 63px;
+  height: 65px;
+  font-size: 3rem;
+
+}
+
+#in:hover{
+  background-color: white;
+  color: rgb(6, 104, 150);
+  width: 63px;
+  height: 65px;
+  border-radius: 20%;
+  transition: 1.4s ease-in-out;
+}
+
+
+
+#what{
+  padding: 10px;
+  width: 63px;
+  height: 65px;
+  font-size: 3rem;
+  color: white;
+}
+
+#what:hover{
+  background-color: green;
+  color: white;
+  width: 63px;
+  height: 65px;
+  border-radius: 20%;
+  transition: 1.0s ease-in-out;
+}
